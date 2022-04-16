@@ -1,0 +1,28 @@
+{
+    "name": "@marsgotta/my-search",
+    "description": "Webcomponent my-search following open-wc recommendations",
+    "license": "MIT",
+    "author": "Mars Gotta",
+    "version": "0.0.0",
+    "main": "index.js",
+    "module": "index.js",
+    "scripts": {
+      "analyze": "cem analyze --litelement",
+      "start": "web-dev-server"
+    },
+    "dependencies": {
+      "lit": "^2.0.0"
+    },
+    "devDependencies": {
+      "@custom-elements-manifest/analyzer": "^0.4.17",
+      "@web/dev-server": "^0.1.25"
+    },
+    "eslintConfig": {
+      "root": true,
+      "env": {
+        "node": true
+      },
+      "rules": {}
+    },
+    "customElements": "custom-elements.json"
+  }
